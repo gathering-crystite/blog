@@ -1,0 +1,13 @@
+I, [2017-01-28T18:06:55.185009 #23214]  INFO -- : listening on addr=/tmp/unicorn.myapp.sock fd=10
+I, [2017-01-28T18:06:55.185206 #23214]  INFO -- : worker=0 spawning...
+I, [2017-01-28T18:06:55.185500 #23214]  INFO -- : worker=1 spawning...
+I, [2017-01-28T18:06:55.185785 #23214]  INFO -- : master process ready
+I, [2017-01-28T18:06:55.192937 #23217]  INFO -- : worker=0 spawned pid=23217
+I, [2017-01-28T18:06:55.193054 #23217]  INFO -- : Refreshing Gem list
+I, [2017-01-28T18:06:55.193851 #23219]  INFO -- : worker=1 spawned pid=23219
+I, [2017-01-28T18:06:55.193958 #23219]  INFO -- : Refreshing Gem list
+I, [2017-01-28T18:06:55.323536 #23217]  INFO -- : worker=0 ready
+I, [2017-01-28T18:06:55.324082 #23219]  INFO -- : worker=1 ready
+/usr/lib/ruby/vendor_ruby/unicorn/http_server.rb:206:in `pid=': Already running on PID:23214 (or pid=/var/www/my_app/pids/unicorn.pid is stale) (ArgumentError)
+	from /usr/lib/ruby/vendor_ruby/unicorn/http_server.rb:135:in `start'
+	from /usr/bin/unicorn:126:in `<main>'
