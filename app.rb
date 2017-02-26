@@ -13,3 +13,4 @@ class MyApp < Sinatra::Base
   	"Hello #{params['name']}!"
   end
 
+end
