@@ -4,13 +4,12 @@ require 'sinatra/base'
 class MyApp < Sinatra::Base
 
   get '/' do
-    'Hello Megan!'
+    'Hello World!'
   end
 
-  get '/hello/:name' do
-  	# matches "GET /hello/bar"
-  	# params['name'] is 'foo' or 'bar'
-  	"Hello #{params['name']}!"
-  end
+get '/download/*.*' do
+  # matches /download/path/to/file.xml
+  params['download/alpine-minirootfs-3.5.1-x86_64.tar.gz'] # => ["path/to/file", "xml"]
+end
 
 end
