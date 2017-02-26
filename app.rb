@@ -7,4 +7,9 @@ class MyApp < Sinatra::Base
     'Hello Megan!'
   end
 
-end
+  get '/hello/:name' do
+  	# matches "GET /hello/bar"
+  	# params['name'] is 'foo' or 'bar'
+  	"Hello #{params['name']}!"
+  end
+
