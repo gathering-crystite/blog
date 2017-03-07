@@ -97,43 +97,15 @@ mkdir logs
 touch tmp/restart.txt
 ```
 
-##### Create sample application files
+##### Create application files
 ##### app.rb
-```
-require 'rubygems'
-require 'sinatra/base'
-
-class MyApp < Sinatra::Base
-
-  get '/' do
-    'Hello world!'
-  end
-
-end
-```
-
-##### create config.ru file
 ##### config.ru
-```
-require File.expand_path('../app.rb', __FILE__)
-use Rack::ShowExceptions
-run MyApp.new    
-```
-
-##### Create Gemfile
-```
-source 'https://rubygems.org'
-gem 'rack'
-gem 'sinatra'
-```
-
-##### Install bundle package manager
-##### Don't install as root
+##### Gemfile
+##### Install bundle package manager, don't install as root
 ```
 gem install bundler
 ```
-##### Test the application
-##### Run this command from /var/www/my_app
+##### To run this application, run this command from /var/www/my_app
 ```
 rackup config.ru --port=4567
 ```
@@ -152,7 +124,7 @@ Initialized empty Git repository in /var/www/my_app/.git/
 ##### Now, I'm able to make changes locally, push to Github, and pull from GitHub to AWS instances.
 
 #### Acknowledgments
-* Jeffrey Baird, I stole our code and hopefully your positive attitude as well. 
+* Jeffrey Baird, I stole your code and hopefully your positive attitude as well. 
 * I used this sinatra tutroial as well: https://www.digitalocean.com/community/tutorials/how-to-install-ruby-2-1-0-and-sinatra-on-ubuntu-13-with-rvm
 
 
