@@ -1,6 +1,6 @@
 ## Blog
 
-I wrote this blog to learn some ruby, rails, sinatra, and some new deplly techniques.  
+I wrote this blog to learn some ruby, rails, sinatra, and some new deploy techniques.  
 The content of this blog will consolidate notes of my learnings into one place. 
 
 #### Setup Guide
@@ -112,10 +112,6 @@ class MyApp < Sinatra::Base
 end
 ```
 
-
-
-
-
 ##### create config.ru file
 ##### config.ru
 ```
@@ -157,5 +153,6 @@ Initialized empty Git repository in /var/www/my_app/.git/
 
 #### Acknowledgments
 * Jeffrey Baird, I stole our code and hopefully your positive attitude as well. 
-* https://www.digitalocean.com/community/tutorials/how-to-install-ruby-2-1-0-and-sinatra-on-ubuntu-13-with-rvm
+* I used this sinatra tutroial as well: https://www.digitalocean.com/community/tutorials/how-to-install-ruby-2-1-0-and-sinatra-on-ubuntu-13-with-rvm
+
 
