@@ -4,13 +4,13 @@ I wrote this blog to learn some ruby, rails, sinatra, and some new deploy techni
 The content of this blog will consolidate notes of my learnings into one place. 
 
 #### Future improvements:
-use ansible to deploy and configure
-setup CI
-use domain and dns, not IP
-start nginx or unicorn when the server starts using systemd ot upstart
-dockerize
-create serverless code, such as AWS Lambda
-deploy to Google Cloud Platform
+- use ansible to deploy and configure
+- setup CI
+- use domain and dns, not IP
+- start nginx or unicorn when the server starts using systemd ot upstart
+- dockerize
+- create serverless code, such as AWS Lambda
+- deploy to Google Cloud Platform
 
 #### Setup Guide
 ##### Install instance on AWS and setup 
@@ -136,6 +136,7 @@ Initialized empty Git repository in /var/www/my_app/.git/
 * Jeffrey Baird, I stole your code and hopefully your positive attitude as well. 
 * I used this sinatra tutroial as well: https://www.digitalocean.com/community/tutorials/how-to-install-ruby-2-1-0-and-sinatra-on-ubuntu-13-with-rvm
 
-
+```
 SysAdmin for the Stars
 -Kenny Loggins
+```
